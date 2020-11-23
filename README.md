@@ -28,4 +28,4 @@ Test the network on costum images or a folder of images::
 python3 test.py --cfg $CFG --imgs $PATH
 ```
 
-The config file allows testing additional settings, like multi-scale testing.
+The config file allows testing additional settings, e.g. multi-scale testing.
