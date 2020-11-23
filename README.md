@@ -8,6 +8,8 @@ Python: >3.2
 
 CUDA: 10.2
 
+cuDNN: 7.4.1
+
 To install the required python packages you can run: 
 ```
 pip install -r requirements.txt
@@ -18,7 +20,7 @@ Unzip the pretrained weights:
 sh unzip_weights.sh
 ```
 
-Test the network on the sample images: or a folder of images (```$PATH_IMG```):
+Test the network on the sample images:
 ```
 python3 test.py --cfg config/outside15k-resnet50-outsideNet.yaml --imgs test_data/
 ```
