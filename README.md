@@ -27,7 +27,7 @@ python3 test.py --cfg config/outside15k-resnet50-outsideNet.yaml --imgs test_dat
 
 Test the network on costum images or a folder of images::
 ```
-python3 test.py --cfg $CFG --imgs $PATH
+python3 test.py --cfg config/outside15k-resnet50-outsideNet.yaml --imgs $PATH
 ```
 
 The config file allows testing additional settings, e.g. multi-scale testing.
