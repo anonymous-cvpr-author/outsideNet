@@ -1,4 +1,4 @@
-# outsideNet - CVPR2021 (#8678)
+# outsideNet - CVPR 2021 (#8678)
 ###
 This is the code for the submission #8678 at CVPR 2021. 
 We provide the pytorch implementation of our model, pretrained weights for the OUTSIDE15K data set and sample images for testing. 
